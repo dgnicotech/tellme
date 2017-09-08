@@ -2,3 +2,4 @@ import telepot
 token = '423328851:AAGiWHLPJU_KeLBUw1Ki44vb6p6gJ730Ghk'
 TelegramBot = telepot.Bot(token)
 print TelegramBot.getMe()
+TelegramBot.getUpdates()
